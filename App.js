@@ -43,7 +43,7 @@ class App extends React.Component {
        * source : url or html 작성
        * ref : 해당 변수 데이터를 확인한다. vue = ref="변수" javascript : this.refs.변수 = 데이터 부르기
        */
-        source={{ uri: "https://m.blog.naver.com/PostList.nhn?blogId=rlaalsdn456456" }}
+        source={{ uri: "https://yeo11200.github.io/jlob/" }}
         ref={(webView) => { this.webView.ref = webView; }}
         /**
          * 화면이 변할 때 마다 바뀔 내장 함수
