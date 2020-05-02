@@ -21,8 +21,19 @@ npm install --save react-native-webview
 
 #### react-navite build 하는 법
 ```npm
-yarn android
+yarn android # android build
 yarn ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
-yarn web
+yarn web # web test build
 ```
+
+
+
+#### 1. 안드로이드 빌드할 때 발생하는 에러
+
+##### 1) build 자체 에러
+###### 1. 현재 데스크 상태에서 android 기기에 대한 정보가 없기 떄문에 발생을 한다. 그래서 android 폰을 usb에 인식하게 한 후에 빌드 하는 방법이 있다.
+<br/>
+###### 2. android studio 설치후 가상 에뮤레이터 실행 후 build 하는 방법
+[안드로이드 스튜디오](https://developer.android.com/studio/install?hl=ko)
+> 처음 설치를 하게되면 이렇게 해도 에러가 발생한다. 
 
