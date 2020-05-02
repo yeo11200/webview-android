@@ -35,4 +35,8 @@ yarn web # web test build
 ###### 2. android studio 설치후 가상 에뮤레이터 실행 후 build 하는 방법
 [안드로이드 스튜디오](https://developer.android.com/studio/install?hl=ko)<br>
 > 처음 설치를 하게되면 이렇게 해도 에러가 발생한다. 
+> 에러가 발생할 경우 files -> setting(Ctrl+Alt+s) -> System Settings -> Android SDK -> sdk platforms -> version 설치
+> files -> setting(Ctrl+Alt+s) -> System Settings -> Android SDK -> sdk tools -> all check
 
+#### AVD Manager 클릭
+##### virtual emulator > 기기 선택 후 yarn build 성공
