@@ -1,11 +1,17 @@
 # react-native webview-android
 [WebView] Android 삽질노트
+#### 0. npm or yarn
+```npm
+npm install -g yarn
+```
 
 #### 1. react-native npm 설치
 ```npm
 npm install -g create-react-native-app
 ```
-
+```npm
+yarn add create-react-native-app
+```
 #### 2. react-native project 설치
 ```npm
 create-react-natvie-app projectName
@@ -26,6 +32,15 @@ yarn ios # you need to use macOS to build the iOS project - use the Expo app if 
 yarn web # web test build
 ```
 
+#### react-native로 유저에 대한 정보 확인하거나 바꿀 때
+```npm
+yarn add react-native-device-info
+```
+[react-native-device-info](https://github.com/react-native-community/react-native-device-info)
+
+
+#### anroid와 ios push 기능
+###### 우선 react-native에서는 push 기능을 지원해주지않는다. 그래서 firebase와 각 native 언어를 확인해서 연동해서 사용이 가능하다
 
 
 #### 1. 안드로이드 빌드할 때 발생하는 에러
