@@ -35,9 +35,15 @@ yarn web # web test build
 #### react-native로 유저에 대한 정보 확인하거나 바꿀 때
 ```npm
 yarn add react-native-device-info
+
+yarn add react-native-user-agent
+```
+
+``` js
+import agent from 'react-native-user-agent'
 ```
 [react-native-device-info](https://github.com/react-native-community/react-native-device-info)
-
+[react-native-user-agent](https://github.com/react-native-community/react-native-user-agent)
 
 #### anroid와 ios push 기능
 ###### 우선 react-native에서는 push 기능을 지원해주지않는다. 그래서 firebase와 각 native 언어를 확인해서 연동해서 사용이 가능하다
