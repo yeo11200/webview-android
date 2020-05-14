@@ -61,3 +61,6 @@ import agent from 'react-native-user-agent'
 
 #### AVD Manager 클릭
 ##### virtual emulator > 기기 선택 후 yarn build 성공
+
+#### react native 빌드시 에러 날때
+###### gradlew cleanBuildCache('windows') or ./gradlew cleanBuildCache(mac or liunx)
