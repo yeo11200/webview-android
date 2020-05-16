@@ -13,6 +13,8 @@ npm install -g create-react-native-app
 yarn add create-react-native-app
 ```
 ###### 현재 0.63버전까지 나왔는데, android build를 할 때 심각한 오류가 있는 문제가 있다. 그래서 버전을 낮춰서 다운을 받아야하고,
+__언더바(underscore)__
+
 ```npm
 yarn add create-react-native-app@0.62
 ```
