@@ -16,7 +16,7 @@ yarn add create-react-native-app
 ```npm
 yarn add create-react-native-app@0.62
 ```
-** 으로 다운을 받아야한다. **
+**으로 다운을 받아야한다. **
 
 #### 2. react-native project 설치
 ```npm
