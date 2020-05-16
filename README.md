@@ -1,5 +1,7 @@
 # react-native webview-android
 [WebView] Android 삽질노트
+
+[ReactNative 공식문서](https://reactnative.dev/docs/0.50/webview)
 #### 0. npm or yarn
 ```npm
 npm install -g yarn
@@ -27,6 +29,7 @@ create-react-natvie-app projectName
 ```npm
 cd projectName
 npm install --save react-native-webview
+react-native link react-native-webview
 ```
 
 ###### react-native안에 webview에 대한 compornent가 있지만 따로 web-view를 설치해서 쓰는 이유는 같은 기능이지만 npm web-view가 표준으로 바뀌고 있기 떄문에 web-view로 사용을 하는 중입니다.
@@ -40,9 +43,11 @@ yarn web # web test build
 
 #### react-native로 유저에 대한 정보 확인하거나 바꿀 때
 ```npm
-yarn add react-native-device-info
+npm install --save react-native-device-info
+react-native link react-native-device-info
 
-yarn add react-native-user-agent
+ynpm install --save react-native-user-agent
+react-native link react-native-user-agent
 ```
 
 ``` js
