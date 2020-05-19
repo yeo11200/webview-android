@@ -45,9 +45,12 @@ class App extends React.Component {
       /**
        * source : url or html 작성
        * ref : 해당 변수 데이터를 확인한다. vue = ref="변수" javascript : this.refs.변수 = 데이터 부르기
+       * userAgent : react-native-webview 함수
+       * userAgent를 변경하는 방법은 : npm install --save react-native-user-agent 설치
+       * .getUserAgent()를 가져와서 문자열로 추가
        */
-      userAgent={UserAgent.getUserAgent() + "APP_MINT"}  
-        source={{ uri: "http://m.mint05.com/main/main.php" }}
+        userAgent={UserAgent.getUserAgent() + "APP_"}  
+        source={{ uri: "https://www.naver.com" }}
         ref={(webView) => { this.webView.ref = webView; }}
         /**
          * 화면이 변할 때 마다 바뀔 내장 함수
