@@ -62,7 +62,7 @@ import agent from 'react-native-user-agent'
 #### webView 상태에서 Loading 화면 구현 할 때
 
 ###### 1.webView에서 제공되는 함수인 onLoad와 onLoadStart를 활용해서 만든다.
-```react
+```js
       <View>
         <WebView
           onLoadStart = {this.bb()}
