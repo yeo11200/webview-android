@@ -59,6 +59,20 @@ import agent from 'react-native-user-agent'
 #### anroid와 ios push 기능
 ###### 우선 react-native에서는 push 기능을 지원해주지않는다. 그래서 firebase와 각 native 언어를 확인해서 연동해서 사용이 가능하다
 
+#### webView 상태에서 Loading 화면 구현 할 때
+
+###### 1.webView에서 제공되는 함수인 onLoad와 onLoadStart를 활용해서 만든다.
+```react
+      <View>
+        <WebView
+          onLoadStart = {this.bb()}
+          onLoad = {this.aa()}
+          source={{uri: this.props.navigation.state.params.url}}
+          style={{marginTop: 20}}
+        >
+        </WebView>
+      </View>
+```
 
 #### 1. 안드로이드 빌드할 때 발생하는 에러
 
