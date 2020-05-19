@@ -1,20 +1,12 @@
-import React from 'react';
-import { StyleSheet, Text, View, BackHandler } from 'react-native';
-import {WebView} from 'react-native-webview'
-import DeviceInfo  from 'react-native-device-info';
-import UserAgent from 'react-native-user-agent;'
+import * as React from 'react';
+import { Platform, StyleSheet, Text, View, BackHandler } from 'react-native';
+import { WebView } from 'react-native-webview';
+import { DeviceInfo} from 'react-native-device-info';
+import UserAgent from 'react-native-user-agent';
 
 class App extends React.Component {
   
   /** 컴포넌트가 실행될 때 제일 먼저 실행될 생성자 */
-  constructor(props){
-    super(props);
-    console.log("constructor");
-    this.UserAgent = UserAgent.getUserAgent();
-    console.log(UserAgent.getUserAgent());
-    // console.log(UserAgent);
-  }
-
   webView = {
     canGoBack: false,
     ref: null,
@@ -48,14 +40,13 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(thirs.userAgent);
     return (
       <WebView
       /**
        * source : url or html 작성
        * ref : 해당 변수 데이터를 확인한다. vue = ref="변수" javascript : this.refs.변수 = 데이터 부르기
        */
-        userAgent={this.UserAgent} 
+      userAgent={UserAgent.getUserAgent() + "APP_MINT"}  
         source={{ uri: "http://m.mint05.com/main/main.php" }}
         ref={(webView) => { this.webView.ref = webView; }}
         /**
