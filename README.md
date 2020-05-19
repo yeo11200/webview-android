@@ -74,6 +74,14 @@ import agent from 'react-native-user-agent'
       </View>
 ```
 
+###### 2. onLoad 되었을 때 함수에 대한 처리와, onLoadStart가 되었을 때 함수 처리를 해준다.
+```js
+  aa = function(){
+
+  }
+  bb = function(){
+  }
+```
 #### 1. 안드로이드 빌드할 때 발생하는 에러
 
 ##### 1) build 자체 에러
