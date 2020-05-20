@@ -58,6 +58,9 @@ import agent from 'react-native-user-agent'
 
 #### anroid와 ios push 기능
 ###### 우선 react-native에서는 push 기능을 지원해주지않는다. 그래서 firebase와 각 native 언어를 확인해서 연동해서 사용이 가능하다
+```npm
+npm install --save react-native-firebase 
+```
 
 #### webView 상태에서 Loading 화면 구현 할 때
 
