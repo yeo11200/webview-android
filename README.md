@@ -89,6 +89,18 @@ npm install --save react-native-push-notification
   bb = function(){
   }
 ```
+
+#### javascript 사용 와 DOM에 대한 캐시 삭제
+
+###### react-native에서 자체적으로 props를 지원해준다
+```js
+  /**
+  * javascript 허용
+  * DOM cache 삭제
+  */
+  javaScriptEnabled={true}
+  domStorageEnabled={true}
+```
 #### 1. 안드로이드 빌드할 때 발생하는 에러
 
 ##### 1) build 자체 에러
