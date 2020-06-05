@@ -54,8 +54,8 @@ react-native link react-native-user-agent
 import agent from 'react-native-user-agent'
 ```
 [react-native-device-info](https://github.com/react-native-community/react-native-device-info)<br/>
-[react-native-user-agent](https://www.npmjs.com/package/react-native-user-agent/v/0.0.9)
-
+[react-native-user-agent](https://www.npmjs.com/package/react-native-user-agent/v/0.0.9)<br/>
+[react-native-uuid](https://www.npmjs.com/package/react-native-uuid)
 #### anroid와 ios push 기능
 ###### 우선 react-native에서는 push 기능을 지원해주지않는다. 그래서 firebase와 각 native 언어를 확인해서 연동해서 사용이 가능하다
 ```npm
