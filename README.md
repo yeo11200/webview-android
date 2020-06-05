@@ -101,6 +101,12 @@ npm install --save react-native-push-notification
   javaScriptEnabled={true}
   domStorageEnabled={true}
 ```
+
+
+#### js에서 네이티브 모듈를 사용하게 하기위해서 사용하는 명령어 
+```node 
+react-native link moduel
+```
 #### 1. 안드로이드 빌드할 때 발생하는 에러
 
 ##### 1) build 자체 에러
