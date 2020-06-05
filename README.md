@@ -116,3 +116,6 @@ npm install --save react-native-push-notification
 
 #### react native 빌드시 에러 날때
 ###### gradlew cleanBuildCache('windows') or ./gradlew cleanBuildCache(mac or liunx)
+```npm
+react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+```
